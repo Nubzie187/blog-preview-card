@@ -76,3 +76,36 @@ p {
     line-height: 150%;
     letter-spacing: 0px;
 }
+
+/* CHAT GPT EDIT BELOW THIS LINE */
+/* Media Query for small screens */
+@media (max-width: 400px) {
+    .container {
+        padding: 16px; /* Adjust padding for smaller screens */
+        width: calc(100% - 32px); /* Leave space on the sides */
+        margin: 0 16px; /* Center the card with margin */
+    }
+
+    .logo img {
+        width: 100%; /* Make logo responsive */
+    }
+
+    .learning-btn {
+        width: 100%; /* Make button full width on small screens */
+        font-size: 12px; /* Adjust button font size */
+    }
+
+    h2 {
+        font-size: 20px; /* Adjust heading font size */
+    }
+
+    p {
+        font-size: 16px; /* Adjust paragraph font size */
+    }
+
+    .author {
+        font-size: 12px; /* Smaller font size for the author */
+    }
+}
+
+
