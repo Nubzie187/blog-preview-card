@@ -78,12 +78,11 @@ p {
 }
 
 /* CHAT GPT EDIT BELOW THIS LINE */
-/* Media Query for small screens */
-@media (max-width: 400px) {
+/* Media Queries for different screen sizes */
+@media (max-width: 425px) {
     .container {
         padding: 16px; /* Adjust padding for smaller screens */
         width: calc(100% - 32px); /* Leave space on the sides */
-        margin: 0 16px; /* Center the card with margin */
     }
 
     .logo img {
